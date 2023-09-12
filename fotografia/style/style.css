@@ -1,0 +1,43 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    display: inline-block;
+    position: relative;
+
+}
+
+figure .left {
+
+    position: absolute;
+    margin-left: 20%;
+    top: 50%;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    flex: 4;
+
+}
+
+figure .right {
+
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px white;
+    flex: 6;
+
+}
+
+.right{
+
+border: 1px solid white;
+
+}
